@@ -159,11 +159,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     padding: 8,
-    justifyContent: 'center', // Center content vertically
+    justifyContent: 'center',
   },
   contentContainer: {
     alignItems: 'center',
-    justifyContent: 'center', // Center content horizontally
+    justifyContent: 'center',
   },
   image: {
     height: 150,
@@ -191,11 +191,6 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 'italic',
     borderColor: 'blue',
-  },
-  project: {
-    fontSize: 15,
-    fontWeight: 'italic',
-    color: 'blue',
-    marginTop: 10,
-  },
+    marginTop: 10
+  }
 });
